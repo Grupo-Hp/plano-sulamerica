@@ -63,7 +63,7 @@ export default function Contato(props) {
     });
 
     return (
-        <div id='contato' className={`p-8 flex items-center ${props.height}`}>
+        <div id='contato' className={`p-8 flex items-center ${props.height} ${props.bg}`}>
             <div className="mx-auto grid grid-cols-2 lg:w-11/12">
                 <div className={`col-span-2 mb-28 text-primary text-center ${props.display}`}>
                     <h2 className='text-4xl font-bold mb-5'>Cotação de Planos de Saúde Rio de Janeiro.
@@ -96,8 +96,8 @@ export default function Contato(props) {
                     </div> */}
                 </div>
                 <div className="col-span-2 lg:col-span-1">
-                    <h4 className='text-4xl font-bold text-white pb-3 text-center'>Preço Rápido</h4>
-                    <p className='text-xl font-bold text-white text-center mb-5'>Estamos dispostos a mostrar os valores dos Planos de Saúde na palma da sua mão em minutos.</p>
+                    <h4 className='text-4xl font-bold text-primary pb-3 text-center'>Preço Rápido</h4>
+                    <p className='text-xl font-bold text-secondary text-center mb-5'>Estamos dispostos a mostrar os valores dos Planos de Saúde na palma da sua mão em minutos.</p>
                     <form onSubmit={handleSubmit(sendContact)}>
 
                         <div className="form-group mb-6 grid grid-cols-2 gap-4">

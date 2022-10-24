@@ -7,7 +7,7 @@ export default function Home() {
   return(
     <>
       <Nav />
-      <Contato button="enviar" display='hidden' />
+      <Contato button="enviar" display='hidden' bg={`bg-white`} />
       <Footer />
     </>
   )
