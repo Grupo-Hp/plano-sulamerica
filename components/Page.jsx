@@ -1,7 +1,7 @@
 import { NextSeo } from 'next-seo'
 
 export default function Page({ title, description, path, children }) {
-    const url = `http://planosulamericario.com.br${path}`
+    const url = `http://planosulamericasauderio.com.br${path}`
     return (
         <>
             <NextSeo

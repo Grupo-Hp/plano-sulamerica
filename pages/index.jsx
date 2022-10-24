@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Page from '../components/Page'
 import Contato from '../components/Contato'
 import Faixa from '../components/Faixa'
 import Footer from '../components/Footer'
@@ -12,7 +13,7 @@ import Header from '../components/Header'
 
 export default function Home() {
   return(
-    <>
+    <Page title="Plano de Saúde Sulamerica Rio" description="Todos os planos de saúde Sulamérica e simulador de planos de saúde online" path="/">
       <Nav />
       <Header />
       <Info4 />
@@ -23,6 +24,6 @@ export default function Home() {
       <Faixa />
       <Contato button="enviar" display='hidden' bg='bg-white' />
       <Footer/>
-    </>
+    </Page>
   )
 }
