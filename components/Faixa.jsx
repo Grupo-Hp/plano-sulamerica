@@ -1,6 +1,6 @@
 export default function Faixa() {
     return (
-        <div className="bg-primary">
+        <div className="bg-primary border-t-2 border-secondary">
             <div className="px-5 md:w-5/6 text-center mx-auto py-8 grid grid-cols-2 gap-x-10">
                 <h1 className="text-2xl md:text-4xl text-white col-span-2 md:col-span-1 lg:text-end">Acesse Valores e Rede</h1>
                 <div className="col-span-2 md:col-span-1 flex items-center justify-center md:justify-start mt-5 md:mt-0">
