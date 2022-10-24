@@ -4,5 +4,16 @@
 
 .contatoImage1 {
     background-image: url('../public/images/onda.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.contatoImage2 {
+    background-image: url('../public/images/telemedicina.jpg');
     background-size: cover;
+}
+
+.rgba-10 {
+    background-color: rgba(0, 0, 102,0.5);
 }
