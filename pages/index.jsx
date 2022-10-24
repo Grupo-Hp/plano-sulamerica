@@ -6,11 +6,13 @@ import Info3 from '../components/Info3'
 import Info2 from '../components/Info2'
 import Info1 from '../components/Info1'
 import Nav from '../components/Nav'
+import Info4 from '../components/Info4'
 
 export default function Home() {
   return(
     <>
       <Nav />
+      <Info4 />
       <Info1 />
       <Info2 />
       <Info3 />
