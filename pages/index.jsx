@@ -21,8 +21,8 @@ export default function Home() {
       <Info2 />
       <Info3 />
       <Faixa />
-      <Contato button="enviar" display='hidden' bg={`bg-white`} />
-      <Footer />
+      <Contato button="enviar" display='hidden' bg='bg-white' />
+      <Footer/>
     </>
   )
 }
