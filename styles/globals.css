@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.contatoImage1 {
+    background-image: url('../public/images/onda.svg');
+    background-size: cover;
+}
