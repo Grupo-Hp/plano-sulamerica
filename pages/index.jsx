@@ -7,6 +7,7 @@ import Info2 from '../components/Info2'
 import Info1 from '../components/Info1'
 import Nav from '../components/Nav'
 import Info4 from '../components/Info4'
+import Cards from '../components/Cards'
 
 export default function Home() {
   return(
@@ -14,6 +15,7 @@ export default function Home() {
       <Nav />
       <Info4 />
       <Info1 />
+      <Cards />
       <Info2 />
       <Info3 />
       <Faixa />
