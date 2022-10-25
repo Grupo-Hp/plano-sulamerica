@@ -59,6 +59,7 @@ export default function Contato(props) {
             empresa: 'Sulamérica',
             imagem: 'Hpcap',
             site: 'https://www.hpcap.com.br/',
+            contact: 'planosulamericasauderio',
         }
     });
 
